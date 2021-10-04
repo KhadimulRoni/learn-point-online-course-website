@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home';
 import Courses from './components/Courses/Courses';
@@ -7,6 +6,7 @@ import About from './components/AboutUs/About';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
+import ContactUs from './components/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -26,6 +26,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="/contact">
+            <ContactUs></ContactUs>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

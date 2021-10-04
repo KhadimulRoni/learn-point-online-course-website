@@ -15,13 +15,18 @@ const Footer = () => {
                         <h6>Our academy offers a wide range of stationery and online courses. we help our students to get the best education and give a start to their careers!</h6>
                     </div>
                     <div className="col-md-4 d-flex about">
-                        <Nav>
-                            
-                            <Link to="home"><h6 className="item">Home</h6></Link>
-                            <Link to="courses"><h6 className="item">Courses</h6></Link>
-                            <Link to="about"><h6 className="item">About US</h6></Link>
-                            <Link to="contact"><h6 className="item">Contact Us</h6></Link>
-                        </Nav>
+                            <div>
+                                <Link to="home"><h6 className="item"><small>Home</small></h6></Link>
+                            </div>
+                            <div>
+                                <Link to="courses"><h6 className="item"><small>Courses</small></h6></Link>
+                            </div>
+                            <div>
+                                <Link to="about"><h6 className="item"><small>About US</small></h6></Link>
+                            </div>
+                            <div>
+                                <Link to="contact"><h6 className="item"><small>Contact Us</small></h6></Link>
+                            </div>
                     </div>
                     <div className="col-md-4 d-flex about">
                         <h2>Contacts</h2>

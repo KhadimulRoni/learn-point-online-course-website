@@ -2,8 +2,12 @@
     padding-top: 10px;
     justify-content: space-between;
 }
-.name{
+.logo{
     align-items: flex-start;
+}
+.logo img{
+    width: 120px;
+    height: 80px;
 }
 .logo:hover{
     color: blue;
@@ -15,6 +19,7 @@
     font-size: 22px;
     font-weight: 500;
     padding: 5px;
+    text-decoration: none;
 }
 .item:hover{
     color: rgb(248, 152, 43);

@@ -54,5 +54,13 @@
         "duration":"4 Months",
         "price":140,
         "img":"https://www.jejumedia.com/wp-content/uploads/2017/12/Social-Internet-Marketing-Company.jpg"
+    },
+
+    {
+        "title":"Electrical Engineering",
+        "date":"October 1, 2021",
+        "duration":"7 Months",
+        "price":190,
+        "img":"http://academee.themerex.net/wp-content/uploads/2017/04/post-7-370x208.jpg"
     }
 ]

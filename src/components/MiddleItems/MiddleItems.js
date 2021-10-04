@@ -1,7 +1,8 @@
 import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
 import { Card } from 'react-bootstrap';
-import './ModdleItem.css';
+import { Link } from 'react-router-dom';
+import './MiddleItem.css';
 
 const MiddleItems = () => {
 
@@ -17,7 +18,7 @@ const MiddleItems = () => {
 
     return (
         <div>
-            <div className="row itemCart">
+            <div className="row itemCart px-5">
             {
                 items.map(item => <div className="col-md-4 my-3 p-3 cart"> 
                     <Card style={{ width: '22rem' }}>
@@ -32,14 +33,14 @@ const MiddleItems = () => {
                         </div>
                             <Card.Text><span className="text-danger cartPrice">${item.price}</span> / month</Card.Text>
 
-                            <Button className="btn btn-primary px-3">Details</Button>
+                            <Link to=""><Button className="btn btn-primary px-3">Details</Button></Link>
                         </Card.Body>
                     </Card>
                 </div>)
             } 
             </div>
             <div>
-                <Button className="btn btn-danger my-3"><h3>All Courses</h3></Button>  
+                <Button href="../Courses" className="btn btn-danger my-3"><h3>All Courses</h3></Button>  
             </div>         
         </div>
         

@@ -1,6 +1,11 @@
 .itemCart{
  background-color: #e6e6e6 !important;
- padding-left: 5%;
+ /* padding-left: 5%; */
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cartImg{
     height: 200px;

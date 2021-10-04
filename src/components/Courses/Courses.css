@@ -1,0 +1,18 @@
+.courseCart{
+    background-color: #e6e6e6 !important;
+   }
+   .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+   .cartImg{
+       height: 200px;
+   }
+   .CartDate{
+       justify-content: space-between;
+       color: darkgray;
+   }
+   .cartPrice{
+       font-size: 50px;
+   }

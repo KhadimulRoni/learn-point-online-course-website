@@ -1,0 +1,17 @@
+.topItem{
+    background-image: url(../../post-2.jpg);
+    height: 780px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 100px;
+    font-weight: 800;
+
+}

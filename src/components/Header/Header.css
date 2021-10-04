@@ -1,0 +1,13 @@
+.header{
+    justify-content: space-between;
+}
+.name{
+    align-items: flex-start;
+}
+
+.item{
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px;
+}

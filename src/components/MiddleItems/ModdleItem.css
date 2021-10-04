@@ -1,12 +1,13 @@
 .itemCart{
- background-color: #e6e6e6 !important;;
+ background-color: #e6e6e6 !important;
+ padding-left: 5%;
 }
-
 .cartImg{
     height: 200px;
 }
 .CartDate{
     justify-content: space-between;
+    color: darkgray;
 }
 .cartPrice{
     font-size: 50px;

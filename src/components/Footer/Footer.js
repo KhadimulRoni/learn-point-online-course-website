@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -15,10 +16,11 @@ const Footer = () => {
                     </div>
                     <div className="col-md-4 d-flex about">
                         <Nav>
-                            <Nav.Link href="home"><h6 className="">Home</h6></Nav.Link>
-                            <Nav.Link href="courses"><h6 className="">Courses</h6></Nav.Link>
-                            <Nav.Link href="about"><h6 className="">About US</h6></Nav.Link>
-                            <Nav.Link href="contact"><h6 className="">Contact Us</h6></Nav.Link>
+                            
+                            <Link to="home"><h6 className="item">Home</h6></Link>
+                            <Link to="courses"><h6 className="item">Courses</h6></Link>
+                            <Link to="about"><h6 className="item">About US</h6></Link>
+                            <Link to="contact"><h6 className="item">Contact Us</h6></Link>
                         </Nav>
                     </div>
                     <div className="col-md-4 d-flex about">

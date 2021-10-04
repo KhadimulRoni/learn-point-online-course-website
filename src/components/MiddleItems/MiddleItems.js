@@ -1,7 +1,7 @@
 import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
 import { Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './MiddleItem.css';
 
 const MiddleItems = () => {
@@ -40,7 +40,7 @@ const MiddleItems = () => {
             } 
             </div>
             <div>
-                <Button href="../Courses" className="btn btn-danger my-3 allCourseBtn"><h3>All Courses</h3></Button>  
+            <NavLink to="courses"> <Button  className="btn-danger my-3 allCourseBtn px-3"><h3>All Courses</h3></Button> </NavLink> 
             </div>         
         </div>
         

@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './Header.css';
 import logo from '../../logo.png';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -13,10 +13,38 @@ const Header = () => {
                     </div>
                     <div className="col-md-6 d-flex name">
                         <Nav>
-                            <Link to="home"><h4 className="item">Home</h4></Link>
-                            <Link to="courses"><h4 className="item">Courses</h4></Link>
-                            <Link to="about"><h4 className="item">About US</h4></Link>
-                            <Link to="contact"><h4 className="item">Contact Us</h4></Link>
+                            <NavLink to="home" 
+                            activeStyle={{
+                                            fontWeight: "bold",
+                                            color: "red",
+                                            textDecoration:"none"
+                                            }}>
+                                            <h4 className="item">Home</h4>
+                            </NavLink>
+                            <NavLink to="courses" 
+                            activeStyle={{
+                                            fontWeight: "bold",
+                                            color: "red",
+                                            textDecoration:"none"
+                                            }}>
+                                            <h4 className="item">Courses</h4>
+                            </NavLink>
+                            <NavLink to="about" 
+                            activeStyle={{
+                                            fontWeight: "bold",
+                                            color: "red",
+                                            textDecoration:"none"
+                                            }}>
+                                            <h4 className="item">About US</h4>
+                            </NavLink>
+                            <NavLink to="contact" 
+                            activeStyle={{
+                                            fontWeight: "bold",
+                                            color: "red",
+                                            textDecoration:"none"
+                                            }}>
+                                            <h4 className="item">Contact Us</h4>
+                            </NavLink>
                         </Nav>
                     </div>
 

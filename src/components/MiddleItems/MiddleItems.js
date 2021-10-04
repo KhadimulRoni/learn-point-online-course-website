@@ -18,7 +18,7 @@ const MiddleItems = () => {
 
     return (
         <div>
-            <div className="row itemCart px-5">
+            <div className="row itemCart px-5 m-0">
             {
                 items.map(item => <div className="col-md-4 my-3 p-3 cart"> 
                     <Card style={{ width: '22rem' }}>
@@ -40,7 +40,7 @@ const MiddleItems = () => {
             } 
             </div>
             <div>
-                <Button href="../Courses" className="btn btn-danger my-3"><h3>All Courses</h3></Button>  
+                <Button href="../Courses" className="btn btn-danger my-3 allCourseBtn"><h3>All Courses</h3></Button>  
             </div>         
         </div>
         

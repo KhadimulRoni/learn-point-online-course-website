@@ -1,6 +1,7 @@
 .itemCart{
- background-color: #e6e6e6 !important;
- /* padding-left: 5%; */
+    overflow: hidden;
+    background-color: #e6e6e6 !important;
+    /* padding-left: 5%; */
 }
 .cart{
     display: flex;

@@ -7,7 +7,7 @@ const Header = () => {
             <Container>
                 <Row className="header">
                     <div className="col-md-4 d-flex name">
-                        <Navbar.Brand href="home"><h1>Learn Point</h1></Navbar.Brand>
+                        <Navbar.Brand href="home"><h1 className="logo">Learn Point</h1></Navbar.Brand>
                     </div>
                     <div className="col-md-6 d-flex name">
                         <Nav>

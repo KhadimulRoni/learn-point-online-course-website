@@ -1,3 +1,4 @@
+
 .topItem{
     background-image: url(../../post-2.jpg);
     height: 780px;
@@ -9,9 +10,22 @@
     background-position: center;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
-.title{
+.title1{
+    color: rgb(255, 123, 0);
+    font-size: 50px;
+    font-weight: 600;
+}
+.title1:hover{
+    color: darkblue;
+}
+.title2{
+    color: darkblue;
     font-size: 100px;
     font-weight: 800;
 
+}
+.title2:hover {
+    color: rgb(255, 123, 0);
 }

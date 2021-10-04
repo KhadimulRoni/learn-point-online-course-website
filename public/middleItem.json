@@ -2,47 +2,49 @@
     {
         "title":"Creative Writting",
         "date":"December 15, 2021",
-        "duration":"5 Months",
-        "price":100,
-        "img":"https://i.imgur.com/Pb8rUhX.jpg"
+        "duration":"5 Months","price":100,
+        "img":"https://i.imgur.com/Pb8rUhX.jpg",
+        "text":"Creative writing is a form of writing where creativity is at the forefront of its purpose through using imagination, creativity, and innovation in order to tell a story through strong written visuals with an emotional impact, like in poetry writing, short story writing, novel writing, and more.It’s often seen as the opposite of journalistic or academic writing.When it comes to writing, there are many different types. As you already know, all writing does not read in the same way.Creative writing uses senses and emotions in order to create a strong visual in the reader’s mind whereas other forms of writing typically only leave the reader with facts and information instead of emotional intrigue.It can be a book series or a single installation, the factors that make up creative writing have more to do with how it sits with the reader artistically"
+        
     },
 
     {
         "title":"Information Technology",
         "date":"December 19, 2021",
-        "duration":"4 Months",
-        "price":150,
-        "img":"https://media.istockphoto.com/vectors/information-technology-isometric-concept-connected-line-3d-icons-vector-id1263829626?k=20&m=1263829626&s=170667a&w=0&h=Z-OtGsall6PtdM1XrinI23wTZRywP5KF1QgDAT77M9k="
+        "duration":"4 Months","price":150,
+        "img":"https://media.istockphoto.com/vectors/information-technology-isometric-concept-connected-line-3d-icons-vector-id1263829626?k=20&m=1263829626&s=170667a&w=0&h=Z-OtGsall6PtdM1XrinI23wTZRywP5KF1QgDAT77M9k=",
+        "text":"Information technology (IT) is the use of any computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data. ... The commercial use of IT encompasses both computer technology and telecommunications."
     },
     
     {
         "title":"Computer Science Intro",
         "date":"November 15, 2021",
-        "duration":"6 Months",
-        "price":170,
-        "img":"http://academee.themerex.net/wp-content/uploads/2017/04/post-2-370x208.jpg"
+        "duration":"6 Months","price":170,
+        "img":"http://academee.themerex.net/wp-content/uploads/2017/04/post-2-370x208.jpg",
+        "text":"Computer science majors must study calculus to earn their degrees, and other relevant math courses include statistics and linear algebra. Introductory computer science classes cover topics like algorithm design, computer organization and abstract data types."
     },
 
     {
         "title":"Business Strategy Course",
         "date":"December 25, 2021",
         "duration":"7 Months",
-        "price":200,
-        "img":"http://academee.themerex.net/wp-content/uploads/2017/04/post-9-370x208.jpg"
-    },
-    {
-        "title":"Engineering Management",
-        "date":"November 25, 2021",
-        "duration":"3 Months",
-        "price":100,
-        "img":"https://online.kettering.edu/sites/default/files/styles/blogfeature_large/public/field/image/online-mba-engineering-management-masters.jpg?itok=IXWMsKoE"
+        "price":200,"img":"http://academee.themerex.net/wp-content/uploads/2017/04/post-9-370x208.jpg",
+        "text":"Strategy MBA programs teach students how to lead businesses through adverse circumstances, experts say. ... A strategy MBA specialization teaches students how to make big-picture management decisions that improve their company's performance."
     },
     
     {
-        "title":"Social Media Marketing",
-        "date":"October 15, 2021",
-        "duration":"4 Months",
-        "price":140,
-        "img":"https://www.jejumedia.com/wp-content/uploads/2017/12/Social-Internet-Marketing-Company.jpg"
+        "title":"Network & Cyber Security",
+        "date":"December 30, 2021",
+        "duration":"3 Months","price":250,
+        "img":"https://static.vecteezy.com/system/resources/previews/001/225/781/non_2x/protected-guard-shield-cyber-security-concept-vector.jpg",
+        "text":"In this course you will learn how to understand firewalls on all platforms including Windows, Mac OS X and Linux for all types of use scenarios. You will be able to discover security vulnerabilities across an entire network, by using network hacking techniques and vulnerability scanning. We also cover the use of custom router firmware to provide you with better network security services."
+    },
+    
+    {
+        "title":"Business Analysis",
+        "date":"December 10, 2021",
+        "duration":"2 Months","price":300,
+        "img":"https://www.parmetech.com/wp-content/uploads/2020/12/the-power-of-analytics.jpg",
+        "text":"Business analysis is a research discipline of identifying business needs and determining solutions to business problems. Solutions often include a software-systems development component, but may also consist of process improvements, organizational change or strategic planning and policy development."
     }
 ]

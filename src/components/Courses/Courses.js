@@ -21,7 +21,9 @@ const Courses = () => {
         <div>
             <div className="row courseCart px-5 m-0">
             {
-                courses?.map(course => <div className="col-md-4 my-3 p-3 cart">
+                courses?.map(course => <div 
+                    key={course.title}
+                className="col-md-4 my-3 p-3 cart">
                     <Card style={{ width: '22rem' }}>
                         <Card.Img className="cartImg" variant="top" src={course.img} />
                         

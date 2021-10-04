@@ -20,8 +20,10 @@ const MiddleItems = () => {
         <div>
             <div className="row itemCart px-5 m-0">
             {
-                items?.map(item => <div className="col-md-4 my-3 p-3 cart"> 
-                    <Card style={{ width: '22rem' }} >
+                items?.map(item => <div 
+                key={item.title}
+                className="col-md-4 my-3 p-3 cart"> 
+                    <Card style={{ width: '22rem' }}>
                         <Card.Img className="cartImg" variant="top" src={item.img} />
                         
                         <Card.Body>

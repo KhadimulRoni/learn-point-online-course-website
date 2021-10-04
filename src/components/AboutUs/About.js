@@ -1,9 +1,10 @@
 import React from 'react';
+import image from '../../best-about-us-pages.jpg'
 
 const About = () => {
     return (
         <div>
-            <h1></h1>
+            <img src={image} alt="" />
         </div>
     );
 };

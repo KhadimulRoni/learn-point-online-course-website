@@ -1,9 +1,10 @@
 import React from 'react';
+import image from '../../Contact Us Graphic-241715-edited.png'
 
 const ContactUs = () => {
     return (
         <div>
-            <h1>contact us</h1>
+            <img src={image} alt="" />
         </div>
     );
 };

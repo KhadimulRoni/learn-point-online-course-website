@@ -35,7 +35,7 @@ const MiddleItems = () => {
                         </div>
                             <Card.Text><span className="text-danger cartPrice">${item.price}</span> / month</Card.Text>
 
-                            <Link to=""><Button className="btn btn-primary px-3">Details</Button></Link>
+                            <Button className="btn btn-primary px-3">Enroll Now</Button>
                         </Card.Body>
                     </Card>
                 </div>)

@@ -36,7 +36,7 @@ const Courses = () => {
                         </div>
                             <Card.Text><span className="text-danger cartPrice">${course.price}</span> / month</Card.Text>
 
-                            <Button className="btn btn-primary px-3">Details</Button>
+                            <Button className="btn btn-primary px-3">Enroll Now</Button>
                         </Card.Body>
                     </Card>
                 </div>)

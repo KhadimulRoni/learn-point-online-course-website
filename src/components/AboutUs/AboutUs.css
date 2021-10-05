@@ -1,5 +1,5 @@
 .aboutUs{
-    background-image: url(../../intellectual-banknote-student-sand-computer-graphic.jpg);
+    background-image: url(../../close-up-graduation-certificate.jpg);
     height: 780px;
     width: 100%;
     /* border: 1px solid red; */
@@ -11,13 +11,21 @@
     align-items: center;
     overflow: hidden;
 }
+.logo2{
+    padding: 0 20%;
+}
+.logo2 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
 .aboutTitle{
     padding: 30px;
     font-size: 50px;
     font-weight: 800;
-    color: white;
+    
 }
-.aboutText{
-    color: white;
-    padding: 0 20%;
-}
+/* .aboutText{
+    color:blue;
+    font-weight: 600;
+} */

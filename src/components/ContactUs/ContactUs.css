@@ -1,6 +1,6 @@
 .contactUs{
-    background-image: url(../../book-with-green-board-background.jpg);
-    height: 780px;
+    background-image: url(../../rm373batch13-085.jpg);
+    height: 850px;
     width: 100%;
     /* border: 1px solid red; */
     background-blend-mode: overlay;
@@ -11,7 +11,13 @@
     align-items: center;
     overflow: hidden;
 }
+.contact{
+    color: white;
+}
 .contactTitle{
     font-size: 50px;
     font-weight: 800;
+}
+.input{
+    padding: 0 20%;
 }

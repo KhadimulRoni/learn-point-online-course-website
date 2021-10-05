@@ -20,6 +20,9 @@ const Courses = () => {
     return (
         <div>
             <div className="row courseCart px-5 m-0">
+                <div>
+                    <h2 className="title3 py-3">All Courses</h2>
+                </div>
             {
                 courses?.map(course => <div 
                     key={course.title}

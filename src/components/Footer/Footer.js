@@ -1,7 +1,7 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import image from '../../logo.png';
 
 const Footer = () => {
     return (
@@ -10,22 +10,22 @@ const Footer = () => {
                 <h1>About Us</h1>
             </div>
             <div className="row m-0 p-5">
-                    <div className="col-md-4 d-flex about">
-                        <h2>Learn Point</h2>
+                    <div className="col-md-4 d-flex about logo">
+                        <img src={image} alt="" />
                         <h6>Our academy offers a wide range of stationery and online courses. we help our students to get the best education and give a start to their careers!</h6>
                     </div>
                     <div className="col-md-4 d-flex about">
                             <div>
-                                <Link to="home"><h6 className="item"><small>Home</small></h6></Link>
+                                <Link to="home"><h6>Home</h6></Link>
                             </div>
                             <div>
-                                <Link to="courses"><h6 className="item"><small>Courses</small></h6></Link>
+                                <Link to="courses"><h6>Courses</h6></Link>
                             </div>
                             <div>
-                                <Link to="about"><h6 className="item"><small>About US</small></h6></Link>
+                                <Link to="about"><h6>About US</h6></Link>
                             </div>
                             <div>
-                                <Link to="contact"><h6 className="item"><small>Contact Us</small></h6></Link>
+                                <Link to="contact"><h6>Contact Us</h6></Link>
                             </div>
                     </div>
                     <div className="col-md-4 d-flex about">

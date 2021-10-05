@@ -1,3 +1,13 @@
+.title3{
+    color: darkblue;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.title3:hover {
+    color: rgb(255, 123, 0);
+}
+
 .itemCart{
     overflow: hidden;
     background-color: #e6e6e6 !important;

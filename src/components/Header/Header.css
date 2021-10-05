@@ -5,24 +5,22 @@
 }
 .logo{
     align-items: flex-start;
+    
 }
 .logo img{
     width: 120px;
     height: 80px;
-}
-.logo:hover{
-    color: blue;
-    font-weight: bold;
+    border-radius: 10px;
 }
 
 .item{
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 18px;
     font-weight: 500;
     padding: 5px;
     text-decoration: none;
-    border: 2px solid rgba(0, 174, 255, 0.226);
-    border-radius: 25px;
+    /* border: 2px solid rgba(0, 174, 255, 0.226);
+    border-radius: 25px; */
 }
 .item:hover{
     color: rgb(248, 152, 43);

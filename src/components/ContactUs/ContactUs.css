@@ -1,0 +1,17 @@
+.contactUs{
+    background-image: url(../../book-with-green-board-background.jpg);
+    height: 780px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.contactTitle{
+    font-size: 50px;
+    font-weight: 800;
+}

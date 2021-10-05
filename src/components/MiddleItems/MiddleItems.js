@@ -20,7 +20,7 @@ const MiddleItems = () => {
         <div>
             <div className="row itemCart px-5 m-0">
                 <div>
-                    <h3 className="title3 py-3">Our Best Courses</h3>
+                    <h3 className="title3 py-3">Our Popular Courses</h3>
                 </div>
             {
                 items?.map(item => <div 

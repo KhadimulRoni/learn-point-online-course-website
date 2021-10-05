@@ -1,0 +1,23 @@
+.aboutUs{
+    background-image: url(../../intellectual-banknote-student-sand-computer-graphic.jpg);
+    height: 780px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.aboutTitle{
+    padding: 30px;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+.aboutText{
+    color: white;
+    padding: 0 20%;
+}
